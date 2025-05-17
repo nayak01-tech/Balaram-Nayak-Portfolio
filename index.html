@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balaram Nayak - E&TC Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 5px solid #3498db;
+        }
+
+        .contact-bar {
+            background: #34495e;
+            padding: 1rem;
+            color: white;
+            text-align: center;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #3498db;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .timeline {
+            border-left: 3px solid #3498db;
+            padding-left: 25px;
+            margin-left: 10px;
+        }
+
+        .timeline-item {
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            background: #3498db;
+            border-radius: 50%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .skill-list {
+            columns: 2;
+            list-style-type: none;
+        }
+
+        .skill-list li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .skill-list li::before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            background: #2c3e50;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BALARAM NAYAK</h1>
+        <p>Electronics & Telecommunication Engineer</p>
+    </header>
+
+    <div class="contact-bar">
+        <span>📞 7894888302</span> • 
+        <span>✉️ nayakrohan17@gmail.com</span> • 
+        <span>📍 Bhubaneswar-751001</span>
+    </div>
+
+    <div class="container">
+        <div class="main-grid">
+            <div class="section">
+                <h2>Education & Training</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Diploma in E&TC</h3>
+                        <p>Govt. Polytechnic Bhubaneswar</p>
+                        <p>2021-2024</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Electronics Mechanic</h3>
+                        <p>Madhusudan I.T.I Cuttack</p>
+                        <p>2019-2021</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>OS-CIT Certification</h3>
+                        <p>OCAC Training Center</p>
+                        <p>2024</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Professional Certifications</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>IoT & Robotics</h3>
+                        <p>Sky Rider Institution</p>
+                        <p>Advanced Internship</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Embedded Systems</h3>
+                        <p>Nishtula Instrument & Innovation</p>
+                        <p>Industrial Training</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Personal Information</h2>
+                <table>
+                    <tr>
+                        <td>Father's Name</td>
+                        <td>Sanatan Nayak</td>
+                    </tr>
+                    <tr>
+                        <td>Mother's Name</td>
+                        <td>Kumari Nayak</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth</td>
+                        <td>30 Nov 2003</td>
+                    </tr>
+                    <tr>
+                        <td>Permanent Address</td>
+                        <td>Mahipur, Nayagarh-752094</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="section">
+                <h2>Skills & Competencies</h2>
+                <ul class="skill-list">
+                    <li>Quick Learning Ability</li>
+                    <li>Quality-oriented Execution</li>
+                    <li>Technical Documentation</li>
+                    <li>Odia (Native)</li>
+                    <li>English (Professional)</li>
+                    <li>Hindi (Fluent)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Declaration</h2>
+            <p style="text-align: justify; line-height: 1.8;">
+                I hereby declare that all information furnished above is true and correct to the best of my knowledge 
+                and belief. I understand that any willful misrepresentation may lead to disqualification or termination 
+                of employment.
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© <span id="year"></span> Balaram Nayak | E&TC Engineer</p>
+    </footer>
+
+    <script>
+        // Auto-update copyright year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Add interactive elements
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseover', () => {
+                item.style.transform = 'translateX(5px)';
+            });
+            item.addEventListener('mouseout', () => {
+                item.style.transform = 'translateX(0)';
+            });
+        });
+
+        // Console message
+        console.log('%cBalaram Nayak%c\nElectronics & Telecommunication Engineer', 
+            'color: #3498db; font-size: 18px; font-weight: bold;', 
+            'color: #2c3e50;');
+    </script>
+</body>
+</html>
